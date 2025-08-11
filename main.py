@@ -4,18 +4,21 @@ import datetime
 import os
 
 LOG_DIR = "Log"
-GITHUB_LINK = "https://github.com/power0matin/SpotyMate-VPS-API-Test"
+GITHUB_LINK = "https://github.com/power0matin/Spotify-API-Test"
+
 
 def ensure_log_dir():
     """Ensure the log directory exists."""
     if not os.path.exists(LOG_DIR):
         os.makedirs(LOG_DIR)
 
+
 def get_log_file_path():
     """Generate a timestamped log file path."""
     now = datetime.datetime.now()
     filename = now.strftime("spotify_api_test_%Y-%m-%d_%H-%M-%S.log")
     return os.path.join(LOG_DIR, filename)
+
 
 def log(message: str, log_file):
     """Write message to log file with timestamp and print it."""
@@ -24,6 +27,7 @@ def log(message: str, log_file):
     print(full_message)
     log_file.write(full_message + "\n")
     log_file.flush()
+
 
 def test_spotify_api(log_file):
     """Perform a test GET request to Spotify API and log the results."""
@@ -55,10 +59,11 @@ def test_spotify_api(log_file):
     except requests.exceptions.RequestException as e:
         log(f"Request failed: {e}", log_file)
 
+
 if __name__ == "__main__":
     ensure_log_dir()
     log_path = get_log_file_path()
     with open(log_path, "a") as log_file:
-        log("="*40, log_file)
+        log("=" * 40, log_file)
         test_spotify_api(log_file)
         print(f"\n📝 Log has been saved to: {log_path}\n")

@@ -67,7 +67,7 @@ python spotify_api_test.py
 
 ```plaintext
 [2025-08-11 08:03:27] ========================================
-[2025-08-11 08:03:27] Designed by power0matin | GitHub: https://github.com/power0matin/SpotyMate-VPS-API-Test
+[2025-08-11 08:03:27] Designed by power0matin | GitHub: https://github.com/power0matin/Spotify-API-Test
 [2025-08-11 08:03:27] Sending GET request to https://accounts.spotify.com/api/token
 [2025-08-11 08:03:27] Status Code: 403
 [2025-08-11 08:03:27] Response Time: 0.123 seconds
