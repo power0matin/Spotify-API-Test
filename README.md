@@ -1,69 +1,71 @@
-<h1 align="center">Spotify-API-Test 🚀</h1>
+<h1 align="center">🎧 Spotify-API-Test 🚀</h1>
 
 <p align="center">
   <a href="#">
-        <img src="https://badges.strrl.dev/visits/power0matin/Spotify-API-Test?style=flat&labelColor=333333&logoColor=E7E7E7&label=Visits&logo=github" />
+    <img src="https://badges.strrl.dev/visits/power0matin/Spotify-API-Test?style=flat&labelColor=333333&logoColor=E7E7E7&label=Visits&logo=github" />
   </a>
   <a href="#">
     <img src="https://img.shields.io/github/stars/power0matin/Spotify-API-Test?style=flat&labelColor=333333&logoColor=E7E7E7&color=EEAA00&label=Stars&logo=github"/>
   </a>
   <a href="#">
-  <img src="https://img.shields.io/github/repo-size/power0matin/Spotify-API-Test?style=flat&labelColor=333333&logoColor=E7E7E7&color=007BFF&label=Repo%20Size&logo=github"/>
-  </a>
-  <a href="#">
-  <img src="https://img.shields.io/github/stars/power0matin/Spotify-API-Test?style=flat&labelColor=333333&logoColor=E7E7E7&color=007BFF&label=Stars&logo=github"/>
+    <img src="https://img.shields.io/github/repo-size/power0matin/Spotify-API-Test?style=flat&labelColor=333333&logoColor=E7E7E7&color=007BFF&label=Repo%20Size&logo=github"/>
   </a>
 </p>
 
-## Overview 📝
 
-A simple Python script to test Spotify API accessibility from your VPS or server.  
-It performs a GET request to Spotify's OAuth token endpoint, logs the status, response time, and headers for debugging and connectivity verification.
+## 📝 Overview
 
-This tool helps you verify if your VPS or hosting environment is able to access Spotify services without being blocked or rate-limited.
+`Spotify-API-Test` is a lightweight Python tool designed to **test Spotify API accessibility** from your VPS or hosting environment.
+It sends a simple GET request to Spotify's OAuth token endpoint and logs response details such as **status code**, **headers**, and **response time** — perfect for debugging and connectivity verification.
 
-![Spotify-API-Test](assets/Spotify-API-Test.png)
+📊 Use it to quickly check whether your VPS can reach Spotify without being blocked or rate-limited.
 
-![Spotify Logo](https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png)
 
-## Features ✨
+## ✨ Features
 
-- Tests connection to Spotify API token endpoint.
-- Logs detailed response info including status code, headers, and response time.
-- Saves logs with timestamp in a dedicated `Log/` directory.
-- Easy to run with no dependencies other than `requests`.
-- Useful for troubleshooting VPS access issues to Spotify.
-- Designed and maintained by power0matin.
+* ✅ Tests connection to Spotify OAuth token endpoint.
+* 🧾 Logs status code, headers, and response time.
+* 🕒 Saves logs in a timestamped file inside the `Log/` directory.
+* 🧰 Minimal dependencies — just `requests`.
+* 🧭 Helps diagnose VPS firewall or blocking issues.
+* 🧑‍💻 Designed and maintained by **power0matin**.
 
-## Requirements 🛡️
 
-- Python 3.7 or higher.
-- `requests` library (`pip install requests`).
+## 🛡️ Requirements
 
-## Installation & Usage 📥
+* 🐍 **Python 3.7+**
+* 📦 Python package: `requests`
 
-1. Clone the repository:
+  ```bash
+  pip install requests
+  ```
 
-```bash
-git clone https://github.com/power0matin/Spotify-API-Test.git
-cd Spotify-API-Test
-```
 
-2. Install dependencies:
+## 📥 Installation & Usage
 
-```bash
-pip install requests
-```
+1. **Clone the repository**:
 
-3. Run the test script:
+   ```bash
+   git clone https://github.com/power0matin/Spotify-API-Test.git
+   cd Spotify-API-Test
+   ```
 
-```bash
-python spotify_api_test.py
-```
+2. **Install dependencies**:
 
-4. Check the console output and review the generated log file inside the `Log/` folder.
+   ```bash
+   pip install requests
+   ```
 
-## Example Output 🖥️
+3. **Run the test script**:
+
+   ```bash
+   python spotify_api_test.py
+   ```
+
+4. 📄 Check the console output and the generated log in the `Log/` directory.
+
+
+## 🖥️ Example Output
 
 ```plaintext
 [2025-08-11 08:03:27] ========================================
@@ -81,15 +83,27 @@ python spotify_api_test.py
 📝 Log has been saved to: Log/spotify_api_test_2025-08-11_08-03-27.log
 ```
 
-## Contributing 🤝
+
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-Feel free to fork the repo and submit a pull request.
+To contribute:
 
-## License 📜
+1. Fork the repository.
+2. Create your branch: `git checkout -b feature/your-feature`.
+3. Commit your changes: `git commit -m "Add new feature"`.
+4. Push to the branch: `git push origin feature/your-feature`.
+5. Open a Pull Request.
+
+
+## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
 
 <p align="center">
-&#169; Created by power0matin
+  © Created by <a href="https://github.com/power0matin">power0matin</a>
 </p>
+
+
+docs(readme): improve Spotify-API-Test README formatting and clarity
+```
