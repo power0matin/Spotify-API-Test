@@ -100,10 +100,15 @@ To contribute:
 
 This project is licensed under the [MIT License](LICENSE).
 
+## 📬 Contact
+
+**Matin Shahabadi (متین شاه‌آبادی / متین شاه آبادی)**
+
+* Website: [matinshahabadi.ir](https://matinshahabadi.ir)
+* Email: [me@matinshahabadi.ir](mailto:me@matinshahabadi.ir)
+* GitHub: [power0matin](https://github.com/power0matin)
+* LinkedIn: [matin-shahabadi](https://www.linkedin.com/in/matin-shahabadi)
+
 <p align="center">
   © Created by <a href="https://github.com/power0matin">power0matin</a>
 </p>
-
-
-docs(readme): improve Spotify-API-Test README formatting and clarity
-```
