@@ -12,7 +12,6 @@
 
 <p align="center">
   <a href="#">
-    <img src="https://badges.strrl.dev/visits/power0matin/Spotify-API-Test?style=flat&labelColor=333333&logoColor=E7E7E7&label=Visits&logo=github" />
   </a>
   <a href="#">
     <img src="https://img.shields.io/github/stars/power0matin/Spotify-API-Test?style=flat&labelColor=333333&logoColor=E7E7E7&color=EEAA00&label=Stars&logo=github"/>
